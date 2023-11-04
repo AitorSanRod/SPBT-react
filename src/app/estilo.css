@@ -1,0 +1,111 @@
+body {
+    background-color: #1E1E1E;
+    color: #dcdcdc !important;
+}
+
+header {
+    background-color: #1E1E1E !important;
+}
+
+a {
+    background-color: #2d2d2d !important;
+    color: white !important;
+}
+
+a:hover {
+    background-color: #ddb900 !important;
+    color: #2d2d2d !important;
+}
+
+a:hover img {
+    filter: brightness(0);
+}
+
+a:hover p {
+    filter: brightness(0);
+}
+
+p {
+    margin: 0 !important;
+}
+
+#hero-img {
+    filter: invert(80%);
+}
+
+.signature {
+    color: #ddb900 !important;
+}
+
+th,
+td {
+    color: #dcdcdc !important;
+}
+
+#clasificacion {
+    display: none;
+}
+
+.indice:hover {
+    cursor: pointer;
+    background-color: #454545 !important;
+}
+
+.blur-out:focus {
+    animation: blur-out 0.4s linear both
+}
+
+#menuResponsive {
+    display: none;
+}
+
+#botonMenuResponsive {
+    width: auto;
+    height: 50%;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+#botonMenuResponsive:hover {
+    cursor: pointer;
+}
+
+#menuLateral {
+    background-color: #1E1E1E;
+    color: #dcdcdc !important;
+}
+
+/* @keyframes blur-out {
+    0% {
+        filter: blur(.01px);
+    }
+
+    100% {
+        filter: blur(12px);
+        opacity: 0
+    }
+} */
+
+/* #marcaMovil {
+    display: none !important;
+} */
+
+@media (max-width: 720px) {
+    /* #cajaMenu {
+        display: none !important;
+    }
+
+    #marcaMovil {
+        display: flex !important;
+    } */
+}
+
+.table {
+    --bs-body-bg: #1e1e1e00;
+}
+
+.accordion {
+    --bs-accordion-bg: #1e1e1e00;
+    --bs-accordion-active-bg: #1e1e1e00;
+}
